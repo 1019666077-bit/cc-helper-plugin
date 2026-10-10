@@ -1,0 +1,14 @@
+{
+  "name": "cc-helper",
+  "version": "0.1.0",
+  "description": "Skills and hard-block hooks so an AI bot can dispatch work to a local CC Helper install. Realtime control requires the desktop Helper from the homepage.",
+  "author": {
+    "name": "Moying Studio",
+    "email": "moying.studio@outlook.com"
+  },
+  "homepage": "https://mymoying.com/cc-helper",
+  "repository": "https://github.com/1019666077-bit/cc-helper-plugin",
+  "license": "MIT",
+  "keywords": ["claude-code", "dispatch", "bot", "hooks", "cc-helper"],
+  "logo": "assets/logo.svg"
+}

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "./scripts/hard-block-hint.sh",
+        "matcher": "rm\\s+-rf|Remove-Item\\s+-Recurse|git\\s+push|curl\\s+.*password|format\\s+"
+      }
+    ]
+  }
+}
