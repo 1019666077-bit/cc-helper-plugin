@@ -7,9 +7,9 @@ description: Dispatch tasks to a local Windows CC Helper install via inbox JSON.
 
 ## What this is
 
-CC Helper is a **local Windows** layer: bot writes task JSON into `inbox\`, a daemon runs Claude Code or Cursor CLI, hard-blocks risky tools, and can watch progress on a tray panel.
+CC Helper is a **local Windows** layer: bot writes task JSON into `inbox\`, a daemon runs Claude Code or Cursor CLI, and can watch progress on a tray panel.
 
-This **marketplace plugin does not include** the daemon, tray, realtime panel, Bark, or budget caps. Those ship only in the desktop Helper from the homepage.
+This **marketplace plugin does not include** the daemon, tray, realtime panel, Bark, or budget caps. Those ship only in the desktop Helper from the homepage. The plugin shell hook is a soft hint: `scripts/soft-hint.sh` prints a warning and exits 0.
 
 Homepage (download + Pro): https://mymoying.com/cc-helper  
 (If the page is not live yet, use the GitHub README until it is.)
@@ -45,7 +45,7 @@ Use a unique `id` per task. Do not queue the same id twice.
 
 ## Safety
 
-Prefer the Helper's hard-block (default on). Do not ask the worker to delete disks, push secrets, or pay/submit without human review.
+The plugin shell hook is a soft hint (exit 0). Do not ask the worker to delete disks, push secrets, or pay/submit without human review.
 
 ## Completion
 
