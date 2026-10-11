@@ -12,7 +12,7 @@ This marketplace plugin **does not** include:
 
 Those ship only in the **desktop Helper**: https://mymoying.com/cc-helper
 
-Realtime control of Claude Code requires that local install. The plugin is the discovery + dispatch playbook layer.
+Realtime control of Claude Code requires that local install. The plugin is the discovery + dispatch playbook layer. Its shell hook is a soft hint: `scripts/soft-hint.sh` prints a warning and exits 0.
 
 ## Install
 
@@ -25,8 +25,8 @@ Realtime control of Claude Code requires that local install. The plugin is the d
 | Piece | Role |
 | --- | --- |
 | `skills/cc-helper-dispatch` | How to write inbox JSON, poll status, stop |
-| `rules/cc-helper-safety.mdc` | Keep hard-block on; no secrets in tasks |
-| `hooks/` + `scripts/` | Soft warning on risky shell patterns |
+| `rules/cc-helper-safety.mdc` | Soft hint only (exit 0); no secrets in tasks |
+| `hooks/` + `scripts/` | Soft hint on risky shell patterns (`soft-hint.sh` exits 0) |
 | `commands/check-cc-helper` | Check local install |
 
 ## License
