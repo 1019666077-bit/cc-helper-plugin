@@ -11,8 +11,7 @@ CC Helper is a **local Windows** layer: bot writes task JSON into `inbox\`, a da
 
 This **marketplace plugin does not include** the daemon, tray, realtime panel, Bark, or budget caps. Those ship only in the desktop Helper from the homepage. The plugin shell hook is a soft hint: `scripts/soft-hint.sh` prints a warning and exits 0.
 
-Homepage (download + Pro): https://mymoying.com/cc-helper  
-(If the page is not live yet, use the GitHub README until it is.)
+Homepage (download + Pro): https://mymoying.com/cc-helper
 
 ## Install check
 
