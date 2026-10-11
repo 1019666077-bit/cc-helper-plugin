@@ -1,6 +1,6 @@
 ---
-description: Prefer CC Helper hard-block and never ship secrets; redirect users to desktop Helper for realtime control
+description: Treat the CC Helper shell hook as a soft hint (script exits 0) and never ship secrets; redirect users to desktop Helper for realtime control
 alwaysApply: true
 ---
 
-When working with CC Helper: keep hard-block on for production runs; do not paste API keys into task JSON or logs; realtime panel, Bark, and token caps require the desktop Helper from https://mymoying.com/cc-helper — this plugin alone cannot provide them.
+When working with CC Helper: the shell hook is a soft hint — the script exits 0 and the command continues; do not paste API keys into task JSON or logs; realtime panel, Bark, and token caps require the desktop Helper from https://mymoying.com/cc-helper — this plugin alone cannot provide them.

@@ -1,6 +1,6 @@
 # CC Helper (Cursor / Grok Bot plugin)
 
-**Free, MIT.** Skills + soft safety hooks so an AI bot can dispatch work to a **local Windows CC Helper** install.
+**Free, MIT.** Skills + soft-hint hooks (script exits 0) so an AI bot can dispatch work to a **local Windows CC Helper** install.
 
 ## Important
 
@@ -25,8 +25,8 @@ Realtime control of Claude Code requires that local install. The plugin is the d
 | Piece | Role |
 | --- | --- |
 | `skills/cc-helper-dispatch` | How to write inbox JSON, poll status, stop |
-| `rules/cc-helper-safety.mdc` | Keep hard-block on; no secrets in tasks |
-| `hooks/` + `scripts/` | Soft warning on risky shell patterns |
+| `rules/cc-helper-safety.mdc` | Soft hint only (exit 0); no secrets in tasks |
+| `hooks/` + `scripts/` | Soft hint on risky shell patterns; script exits 0 |
 | `commands/check-cc-helper` | Check local install |
 
 ## License
