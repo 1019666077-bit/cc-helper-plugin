@@ -12,7 +12,7 @@ This marketplace plugin **does not** include:
 - Realtime progress panel
 - Bark / webhook notify or token budget caps
 
-Those ship only in the **desktop Helper**: https://mymoying.com/cc-helper
+Those ship only in the **desktop Helper**: https://botbridge.dev/cc-helper
 
 Realtime control of Claude Code requires that local install. The plugin is the discovery + dispatch playbook layer. Its shell hook is a soft hint: `scripts/soft-hint.sh` prints a warning and exits 0.
 
