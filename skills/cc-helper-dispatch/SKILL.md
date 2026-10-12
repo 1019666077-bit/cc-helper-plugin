@@ -1,13 +1,13 @@
 ---
 name: cc-helper-dispatch
-description: Dispatch tasks to a local Windows CC Helper install via inbox JSON. Use when the user or bot should run Claude Code / Cursor CLI through CC Helper, check install status, or stop a running task.
+description: Dispatch tasks to a local Windows Bot Bridge CC Helper install via inbox JSON. Use when the user or bot should run Claude Code / Cursor CLI through Bot Bridge CC Helper, check install status, or stop a running task.
 ---
 
-# CC Helper dispatch
+# Bot Bridge CC Helper dispatch
 
 ## What this is
 
-CC Helper is a **local Windows** layer: bot writes task JSON into `inbox\`, a daemon runs Claude Code or Cursor CLI, and can watch progress on a tray panel.
+Bot Bridge CC Helper is a **local Windows** layer: a remote bot writes task JSON into `inbox\`, a daemon runs Claude Code or Cursor CLI, and you watch progress on a tray panel.
 
 This **marketplace plugin does not include** the daemon, tray, realtime panel, Bark, or budget caps. Those ship only in the desktop Helper from the homepage. The plugin shell hook is a soft hint: `scripts/soft-hint.sh` prints a warning and exits 0.
 
