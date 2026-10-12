@@ -1,4 +1,6 @@
-# CC Helper (Cursor / Grok Bot plugin)
+# CC Helper
+
+**For Cursor and Grok Bot.**
 
 **Free, MIT.** Skills + soft safety hooks so an AI bot can dispatch work to a **local Windows CC Helper** install.
 
