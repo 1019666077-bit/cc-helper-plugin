@@ -1,6 +1,6 @@
 ---
 name: check-cc-helper
-description: Check whether the local CC Helper desktop install exists and remind how to download it
+description: Check whether the local Bot Bridge CC Helper desktop install exists and remind how to download it
 ---
 
 Check whether `%USERPROFILE%\cc-helper\daemon.js` exists on this machine.

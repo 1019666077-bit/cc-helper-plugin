@@ -1,7 +1,7 @@
 {
   "name": "cc-helper",
   "version": "0.1.0",
-  "description": "For Cursor and Grok Bot. Skills and soft-hint hooks so an AI bot can dispatch work to a local CC Helper install. The shell hook prints a warning and exits 0. Realtime control requires the desktop Helper from the homepage.",
+  "description": "For Cursor and Grok Bot. Skills and soft-hint hooks so a remote AI bot can dispatch tasks into the inbox of a local Bot Bridge CC Helper install on Windows. The shell hook prints a warning and exits 0. Progress tracking, budget caps, and stall kills require the desktop Helper from the homepage.",
   "author": {
     "name": "Moying Studio",
     "email": "moying.studio@outlook.com"
